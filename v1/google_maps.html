@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maharashtra</title>
+<style>
+body {
+        background-image: url("bg.jpg");
+} 
+ .style1 {color: #FFFFFF}
+.style2 {color: #999999}
+
+</style>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(18.500,72.800),
+    zoom:6,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<center>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+<p><center><font color="#FFFFFF" size="10">Maharashtra on Google maps</font></center></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="left" class="style1"><font size="-3" face="Times New Roman, Times, serif">Copyright &copy; 2015 - All Rights Reserved- www.techriderkk.tk </font></p>
+</center>
+</body>
+</html>
