@@ -1,0 +1,27 @@
+body, html{
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
+  font-size: 18px;
+}
+nav{
+    width: 100%;
+}
+#t{
+  margin-top: 65px;
+}
+.in{
+  z-index: 2;
+  position: relative;
+  border: 3px solid rgb(77, 77, 77);
+  background: rgba(53, 53, 53, 0.589);
+  color: #fff;
+  text-align: center;
+  padding: 10%;
+  opacity: 0.9;
+  font-size: 24PX;
+}
+.pwindow {
+    min-height: 700px;
+    padding: 280px 300px 0 300px;
+    background: transparent;
+  }
+  
