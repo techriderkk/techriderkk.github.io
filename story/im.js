@@ -1,5 +1,8 @@
-var i=486;
-var d;
+var i=486; /*imge strt from 486 to 3280 total 2794*/
+//var d;
+
+
+
 /*FOR KEYBOARD USERS*/
 function funimg(e){
     if(e.keyCode==39){
