@@ -1,4 +1,4 @@
-<html>
+<html id="html">
     <head>
         <title>
             Image se Animation
@@ -7,26 +7,31 @@
         <link type="text/css" rel="stylesheet" href="style.css"></link>
         <script src="im.js"></script>
     </head>
-    <body onkeydown="funimg(event)">
-        <div class="stitle container-fluid text-center">
-            Starless Night - A Short Story...
+    <body onload="myFunction()" onkeydown="funimg(event)">
+        <div id="loader">
+
         </div>
-        <div class="mdiv container-fluid">
-            <div class="row">
-                <!--div class="col-lg-3 col-md-12 left"><img class="img" src="img/left.png"  onmousedown="keyBack(event)" onmouseup="keyBackStop(event)"></img></div-->
-                <div class="col-12"><img class="img-fluid rounded mx-auto d-block" src="star/Starless-Night-YouTube-486.jpg" id="m"></img></div>
-                <!--div class="col-lg-3 col-md-12 right"><img class="img" src="img/right.png" onmousedown="keyFwd(event)" onmouseup="keyFwdStop(event)"></img></div-->
+        <div id="maindiv">
+            <div class="stitle container-fluid text-center">
+                Starless Night - A Short Story...
             </div>
-        </div>
-        <div class="navtop fixed-top text-center">
-            <div class="b">
-                Hold Left or Right arrow key to see the effects
-            </div>
-        </div>
-        <div class="navbot fixed-bottom text-center">
-                <div class="b">
-                    Made by <a target="_blank" href="https://facebook.com/techriderkk">@TechriderKK</a> | Story by <a target="_blank" href="https://www.youtube.com/user/CarlCampbell">@CarlCampbell</a>
+            <div class="mdiv container-fluid">
+                <div class="row">
+                    <!--div class="col-lg-3 col-md-12 left"><img class="img" src="img/left.png"  onmousedown="keyBack(event)" onmouseup="keyBackStop(event)"></img></div-->
+                    <div class="col-12"><img class="img-fluid rounded mx-auto d-block" src="star/Starless-Night-YouTube-486.jpg" id="m"></img></div>
+                    <!--div class="col-lg-3 col-md-12 right"><img class="img" src="img/right.png" onmousedown="keyFwd(event)" onmouseup="keyFwdStop(event)"></img></div-->
                 </div>
             </div>
+            <div class="navtop fixed-top text-center">
+                <div class="b">
+                    Hold Left or Right arrow key to see the effects
+                </div>
+            </div>
+            <div class="navbot fixed-bottom text-center">
+                    <div class="b">
+                        Made by <a target="_blank" href="https://facebook.com/techriderkk">@TechriderKK</a> | Story by <a target="_blank" href="https://www.youtube.com/user/CarlCampbell">@CarlCampbell</a>
+                    </div>
+                </div>
+        </div>
     </body>
 </html>
