@@ -1,0 +1,159 @@
+body, html{
+  font-family: 'K2D', sans-serif !important;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+.bdy{
+  background: #d8d8d8e7;
+  color: #383838;
+}
+nav{
+  text-align: center;
+  width: 100%;
+}
+
+.nav-link {
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+.nav-link:hover{
+  background-color: #94909031;
+  border-radius: 30% 10% 30%;
+  text-shadow: 1px 1px 3px #3d3d3d60;
+}
+.toplogo{
+  height: 35px;
+}
+.material-icons{
+  margin-top: -2px;
+}
+#t{
+  margin-top: 65px;
+}
+
+.in{
+  z-index: 2;
+  position: relative;
+  border: 3px solid #181818;
+  border-radius: 20px;
+  background: #000000e7;
+  color: #fff;
+  text-align: center;
+  padding: 0% 10% 10% 10%;
+  opacity: 0.9;
+  font-size: 24PX;
+  letter-spacing: 2px;
+  line-height: 200%;
+}
+
+.intitle{
+  padding-bottom: 10%;
+  padding-top: 2%;
+}
+
+.disptxt{
+  margin:30px 30px;
+  text-align: justify;
+  padding: 0 20px 0 20px;
+  border: 1px dotted #bbbbbbe7;
+}
+
+.pwindow {
+    min-height: 700px;
+    padding: 160px 300px 50px 300px;
+    background: transparent;
+}
+
+.skilltxt{
+  background: #dadada;
+  color: #313131;
+  padding-top: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.skilltxt:hover {
+  background: #ffffff;
+  color: #313131;
+  box-shadow: 5px -5px 20px 0px rgb(155, 155, 155);
+}
+
+.foot{
+  height: 20px;
+  font-size: 13px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  background-color: #313131;
+  color: #9e9e9e;
+}
+
+.contact{
+}
+
+.sicon{
+  margin-top: 25vh;
+  height: 10vh;
+  width: 30vh;
+  transition: 0.6s;
+  box-shadow: 5px 5px 10px 2px rgba(255, 255, 255, 0.288);
+}
+
+.sicon:hover{
+  margin-top: 0;
+  height: 30vh;
+  width: 30vh;
+  box-shadow: 10px 10px 30px 5px rgba(255, 255, 255, 0.288);
+  transition: 0.6s;
+}
+
+
+
+
+
+@media screen and (max-width: 758px) {
+  .foot{
+    font-size: 12px;
+  }
+  .in{
+    font-size: 28px;
+  }
+  .navbar-toggler{
+    height:100px;
+    width: 120px;
+  }
+  .pwindow{
+  }
+  .toplogo{
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .sicon{
+    margin-top: 20px;
+    height: 30vh;
+    width: 25vh;
+  }
+  .sicon:hover{
+    margin-top: 20px;
+    height: 30vh;
+    width: 30vh;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+}
+
+@media screen and (max-width: 767px) {
+  .nav-item{
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+}
+
+@media screen and (max-width: 420px) {
+}
